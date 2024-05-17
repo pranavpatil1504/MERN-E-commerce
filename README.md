@@ -11,38 +11,40 @@ A mid-range MERN Stack Shopping website, which has CRUD operations and also many
    ```
 
 2. Install Node Package Manager dependencies:
-   ```bash
+   ```cmd
    npm install
    ```
 3. Install required packages:
-   ```bash
+   ```cmd
    npm install react-router-dom
    npm install @mui/material
    ```
 
 4. Start the development server:
-   ```bash
+   ```cmd
    npm start
    ```
 
 ## Server Side
 
 1. In another terminal window, navigate to the server directory:
-   ```bash
+   ```cmd
    cd server
    ```
 
 2. Install MongoDB packages:
-   ```bash
+   ```cmd
    npm install mongoose express
    ```
 
 3. Start the Server:
-   ```bash
+   ```cmd
    npm start
    ```
 
-4. MONGOURI: mongodb+srv://insanedb:pranavpatil%4015042004@mernstack.kn7ya0j.mongodb.net/
+4. ```cmd
+   MONGOURI: mongodb+srv://insanedb:pranavpatil%4015042004@mernstack.kn7ya0j.mongodb.net/
+   ```
 
 
 ## Outputs:
