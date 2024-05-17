@@ -6,7 +6,7 @@ A mid-range MERN Stack Shopping website, which has CRUD operations and also many
 
 ## Client Side
 1. Open the terminal and navigate to the client directory:
-   ```bash
+   ```cmd
    cd client
    ```
 
