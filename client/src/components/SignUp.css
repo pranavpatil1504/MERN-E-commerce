@@ -1,0 +1,171 @@
+/* SignUp.css */
+*{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* General styles */
+.all{
+  background-image: url('./shopping-cart-bags-black-background.jpg');
+  background-size: 70%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+::-webkit-scrollbar {
+  background-color: transparent; /* Background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Color of the scrollbar thumb */
+}
+
+.signup-container{
+  max-width: 420px;
+  margin-top: 5%;
+  position: absolute;
+  margin-left: 70%;
+  padding: 39px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #ffffff;
+
+  h2 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-size: 260%;
+    color: #333; /* Darker text color */
+    cursor: pointer;
+  }
+
+  .form-group {
+    position: relative;
+    margin-bottom: 20px;
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #555; /* Slightly darker label color */
+    }
+
+    input {
+      width: calc(110% - 3px); /* Adjusted width for icon */
+      padding: 13px;
+      font-size: 16px;
+      border: 1px solid #363636; /* Light grey border color */
+      border-radius: 10px;
+      transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for border color and box shadow */
+      box-sizing: border-box; /* Ensure padding and border are included in width */
+      padding-right: 40px; /* Space for icon */
+
+      &:focus {
+        outline: none;
+        border-color: #4a90e2; /* Light blue focus border color */
+        box-shadow: 0 0 5px rgba(74, 144, 226, 0.5); /* Add shadow on focus for emphasis */
+      }
+    }
+    .input-icon {
+      position: absolute;
+      top: 70%;
+      transform: translateY(-50%);
+      right: -7.5px;
+      color: #1e1e1e; /* Light grey icon color */
+      cursor: pointer;
+    }
+
+    .error {
+      position: absolute;
+      top: calc(100% + 5px);
+      display: flex;
+      color: #ff5555; /* Red error color */
+      font-size: 10px;
+      font-weight: 500;
+    }
+  }
+.confirmlock{
+  color: green;
+}
+  button {
+    width: 110%;
+    padding: 12px;
+    font-size: 20px;
+    background-color: #333333;
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for background color */
+
+    &:hover {
+      background-color: #101010; /* Darker blue hover color */
+    }
+  }
+}
+.signin-link {
+  text-decoration: none;
+  font-weight: 400;
+  margin-top: 18px;
+  text-align: center;
+  font-size: 18px;
+}
+a{
+  text-decoration: none;
+  color:#ffffff;
+  background-color: #333;
+  padding: 7px;
+  border-radius: 5px;
+}
+a:hover{
+  background-color: #101010;
+}
+.signup-link{
+  text-decoration: none;
+  font-weight: 300;
+  margin-top: 18px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .signup-container {
+    max-width: 90%; /* Adjusted max-width for smaller screens */
+    margin: 5% auto; /* Centering the container */
+    margin-top: 10%; /* Increased top margin for better spacing */
+    padding: 20px; /* Increased padding for better spacing */
+  }
+
+  h2 {
+    font-size: 24px; /* Reduced font size for smaller screens */
+    margin-bottom: 25px; /* Reduced bottom margin for better spacing */
+  }
+
+  input {
+    width: 100%; /* Full width input for smaller screens */
+    padding: 10px; /* Reduced padding for better spacing */
+    font-size: 14px; /* Reduced font size for smaller screens */
+  }
+
+  .input-icon {
+    right: 5px; /* Adjusted right position for smaller screens */
+  }
+
+  .error {
+    font-size: 8px; /* Reduced font size for smaller screens */
+  }
+
+  button {
+    width: 100%; /* Full width button for smaller screens */
+    padding: 10px; /* Reduced padding for better spacing */
+    font-size: 16px; /* Increased font size for better visibility */
+  }
+
+  .signin-link,
+  .signup-link {
+    font-size: 14px; /* Reduced font size for smaller screens */
+  }
+}
+@media (max-width: 600px) {
+  .all {
+    background-size: contain; /* Adjusted background size for smaller screens */
+    background-position: center; /* Center the background image */
+  }
+}

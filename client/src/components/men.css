@@ -1,0 +1,128 @@
+/* men.css */
+.home nav ul {
+    list-style-type: none;
+    margin-top: -117px;
+    padding: 60px;
+    margin-left: 5%;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.home nav ul li a {
+    text-decoration: none;
+    color: #333;
+    background-color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+strong{
+    color: green;
+    font-size: larger;
+}
+.home nav ul li a:hover {
+    border: dashed 3px  #333;
+    border-radius: 10px;
+}
+img{
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.main{
+    margin: 30px;
+    display: flex;
+    column-gap: 17px;
+    row-gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+::-webkit-scrollbar {
+    background-color: #ffffff; /* Background color of the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #33333379;
+    border-radius: 15px; /* Color of the scrollbar thumb */
+  }
+
+  .home nav ul li a.active {
+    border: dashed 3px  #333;
+    border-radius: 10px;
+    color: #333;
+}
+
+.home nav {
+    align-items: center;
+}
+
+.search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+}
+
+.home nav input[type="text"] {
+    border: dashed 3px #333;
+    border-radius: 12px;
+    padding: 10px 20px; /* Adjust the padding to leave space for the icon */
+    font-size: 16px;
+    outline: none;
+    width: 200px; /* Adjust the width of the input field */
+}
+
+.home nav input[type="text"]:focus {
+    border-color: rgb(0, 0, 0); /* Change border color on focus */
+}
+
+input::placeholder {
+    color: #33333375;
+    position: relative;
+    right: 1px;
+     /* Placeholder color */
+}
+
+.cart-container {
+    margin-top: -80px;
+    padding: 30px;
+}
+
+.cart-container h2 {
+    margin-bottom: 20px;
+}
+
+.cart-container .no {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #666;
+}
+
+.cart-container .MuiCard-root {
+    display:flex;
+    border: dashed 3px #3333335f;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cart-container .MuiCardMedia-root {
+    width: 150px;
+    height: 250px;
+}
+
+.cart-container .MuiCardContent-root {
+    flex: 3;
+}
+
+.total-amount {
+    top: -40px;
+    text-align: right;
+    color: green;
+    font-weight: bolder;
+    font-size: 40px;
+}
